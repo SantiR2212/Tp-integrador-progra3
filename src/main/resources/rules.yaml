@@ -1,0 +1,35 @@
+- id: "R1"
+  peso: 100 # La más importante
+  conditions:
+    no_arranca: true
+    testigo_bateria: true
+  diagnostico: "Batería descargada o bornes flojos"
+  acciones:
+    - "Medir voltaje (>12.4V)"
+    - "Limpiar y ajustar bornes"
+
+- id: "R2"
+  peso: 90
+  conditions:
+    no_arranca: true
+    testigo_bateria: false
+  diagnostico: "Falla de arranque (motor de arranque/relé) o combustible"
+  acciones:
+    - "Escuchar clic del burro; chequear relé/combustible"
+
+- id: "R3"
+  peso: 80
+  conditions:
+    ruido_metalico_frenar: true
+  diagnostico: "Pastillas de freno desgastadas"
+  acciones:
+    - "No usar el vehículo. Llevar a taller urgente."
+
+- id: "R4"
+  peso: 70
+  conditions:
+    se_calienta: true
+  diagnostico: "Problema en sistema de refrigeración"
+  acciones:
+    - "Detener el auto. Verificar nivel de refrigerante (en frío)."
+    - "Verificar si funciona el electroventilador."

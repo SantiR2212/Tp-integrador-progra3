@@ -1,0 +1,6 @@
+[ {
+  "diagnostico" : "Batería descargada o bornes flojos (R1)",
+  "acciones" : [ "Medir voltaje (>12.4V)", "Limpiar y ajustar bornes" ],
+  "explicacion" : "R1: no_arranca=true y testigo_bateria=true => regla activada",
+  "peso" : 100
+} ]

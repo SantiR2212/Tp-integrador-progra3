@@ -1,0 +1,6 @@
+{
+  "no_arranca": true,
+  "ruido_metalico_frenar": false,
+  "se_calienta": false,
+  "testigo_bateria": true
+}

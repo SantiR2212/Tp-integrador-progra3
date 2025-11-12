@@ -1,0 +1,9 @@
+Diagnósticos Encontrados:
+- Batería descargada o bornes flojos (R1)
+
+Recomendaciones:
+- Medir voltaje (>12.4V)
+- Limpiar y ajustar bornes
+
+Explicación:
+- R1: no_arranca=true y testigo_bateria=true => regla activada
